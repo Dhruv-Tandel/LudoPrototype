@@ -26,7 +26,7 @@ public class GameManager : MonoBehaviour
 
     void RollDice()
     {
-        lastRoll = Random.Range(6, 7);
+        lastRoll = Random.Range(5, 7);
         Debug.Log("Rolled: " + lastRoll);
     }
 
@@ -40,6 +40,7 @@ public class GameManager : MonoBehaviour
         {
             AdvanceTurn();
         }
+        
     }
 
     void AdvanceTurn()
@@ -47,4 +48,5 @@ public class GameManager : MonoBehaviour
         currentTurn = (PlayerColor)(((int)currentTurn + 1) % 4);
         Debug.Log("Turn: " + currentTurn);
     }
+
 }

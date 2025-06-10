@@ -136,7 +136,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2416356
 Transform:
   m_ObjectHideFlags: 0
@@ -167,6 +167,7 @@ MonoBehaviour:
   color: 1
   currentIndex: -1
   homeIndex: -1
+  stepsFromStart: 0
   isHome: 0
   hasFinished: 0
 --- !u!212 &2416358
@@ -365,7 +366,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &29285093
 Transform:
   m_ObjectHideFlags: 0
@@ -396,6 +397,7 @@ MonoBehaviour:
   color: 1
   currentIndex: -1
   homeIndex: -1
+  stepsFromStart: 0
   isHome: 0
   hasFinished: 0
 --- !u!212 &29285095
@@ -1843,7 +1845,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &430508099
 Transform:
   m_ObjectHideFlags: 0
@@ -1874,6 +1876,7 @@ MonoBehaviour:
   color: 2
   currentIndex: -1
   homeIndex: -1
+  stepsFromStart: 0
   isHome: 0
   hasFinished: 0
 --- !u!212 &430508101
@@ -2259,7 +2262,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &522387424
 Transform:
   m_ObjectHideFlags: 0
@@ -2290,6 +2293,7 @@ MonoBehaviour:
   color: 3
   currentIndex: -1
   homeIndex: -1
+  stepsFromStart: 0
   isHome: 0
   hasFinished: 0
 --- !u!212 &522387426
@@ -3071,7 +3075,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &643616974
 Transform:
   m_ObjectHideFlags: 0
@@ -3102,6 +3106,7 @@ MonoBehaviour:
   color: 2
   currentIndex: -1
   homeIndex: -1
+  stepsFromStart: 0
   isHome: 0
   hasFinished: 0
 --- !u!212 &643616976
@@ -3171,7 +3176,7 @@ GameObject:
   - component: {fileID: 658102536}
   m_Layer: 0
   m_Name: Main_50
-  m_TagString: Untagged
+  m_TagString: exitPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4425,6 +4430,7 @@ MonoBehaviour:
   color: 0
   currentIndex: -3
   homeIndex: -1
+  stepsFromStart: 0
   isHome: 0
   hasFinished: 0
 --- !u!212 &885000132
@@ -4934,7 +4940,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1055387533
 Transform:
   m_ObjectHideFlags: 0
@@ -4965,6 +4971,7 @@ MonoBehaviour:
   color: 2
   currentIndex: -1
   homeIndex: -1
+  stepsFromStart: 0
   isHome: 0
   hasFinished: 0
 --- !u!212 &1055387535
@@ -5039,7 +5046,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1077851282
 Transform:
   m_ObjectHideFlags: 0
@@ -5070,6 +5077,7 @@ MonoBehaviour:
   color: 2
   currentIndex: -1
   homeIndex: -1
+  stepsFromStart: 0
   isHome: 0
   hasFinished: 0
 --- !u!212 &1077851284
@@ -5139,7 +5147,7 @@ GameObject:
   - component: {fileID: 1085074330}
   m_Layer: 0
   m_Name: Main_11
-  m_TagString: Untagged
+  m_TagString: exitPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5349,6 +5357,7 @@ MonoBehaviour:
   color: 0
   currentIndex: -4
   homeIndex: -1
+  stepsFromStart: 0
   isHome: 0
   hasFinished: 0
 --- !u!212 &1138662567
@@ -5628,6 +5637,7 @@ MonoBehaviour:
   color: 0
   currentIndex: -2
   homeIndex: -1
+  stepsFromStart: 0
   isHome: 0
   hasFinished: 0
 --- !u!212 &1173960868
@@ -6435,7 +6445,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1271832464
 Transform:
   m_ObjectHideFlags: 0
@@ -6466,6 +6476,7 @@ MonoBehaviour:
   color: 3
   currentIndex: -1
   homeIndex: -1
+  stepsFromStart: 0
   isHome: 0
   hasFinished: 0
 --- !u!212 &1271832466
@@ -7012,7 +7023,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1350842762
 Transform:
   m_ObjectHideFlags: 0
@@ -7043,6 +7054,7 @@ MonoBehaviour:
   color: 1
   currentIndex: -1
   homeIndex: -1
+  stepsFromStart: 0
   isHome: 0
   hasFinished: 0
 --- !u!212 &1350842764
@@ -7764,10 +7776,38 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mainPathTiles: []
   mainpath: {fileID: 44045029}
-  redHomeRow: []
-  greenHomeRow: []
-  yellowHomeRow: []
-  blueHomeRow: []
+  redHomeRow:
+  - {fileID: 1085074329}
+  - {fileID: 1991585385}
+  - {fileID: 522510632}
+  - {fileID: 1044221417}
+  - {fileID: 674394634}
+  - {fileID: 723012640}
+  - {fileID: 895650652}
+  greenHomeRow:
+  - {fileID: 1853974923}
+  - {fileID: 1767208831}
+  - {fileID: 1686689642}
+  - {fileID: 1154745403}
+  - {fileID: 2001989335}
+  - {fileID: 876035307}
+  - {fileID: 977491951}
+  yellowHomeRow:
+  - {fileID: 1652331324}
+  - {fileID: 1383737960}
+  - {fileID: 1745800526}
+  - {fileID: 199546203}
+  - {fileID: 1528967791}
+  - {fileID: 1210997776}
+  - {fileID: 298731772}
+  blueHomeRow:
+  - {fileID: 658102535}
+  - {fileID: 1801390093}
+  - {fileID: 1757822947}
+  - {fileID: 1155761864}
+  - {fileID: 87355725}
+  - {fileID: 1201176647}
+  - {fileID: 1695096850}
 --- !u!1 &1528967790
 GameObject:
   m_ObjectHideFlags: 0
@@ -8041,7 +8081,7 @@ GameObject:
   - component: {fileID: 1652331325}
   m_Layer: 0
   m_Name: Main_37
-  m_TagString: Untagged
+  m_TagString: exitPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8394,7 +8434,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1705743669
 Transform:
   m_ObjectHideFlags: 0
@@ -8425,6 +8465,7 @@ MonoBehaviour:
   color: 1
   currentIndex: -1
   homeIndex: -1
+  stepsFromStart: 0
   isHome: 0
   hasFinished: 0
 --- !u!212 &1705743671
@@ -9225,7 +9266,7 @@ GameObject:
   - component: {fileID: 1853974924}
   m_Layer: 0
   m_Name: Main_24
-  m_TagString: Untagged
+  m_TagString: exitPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9416,14 +9457,14 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 522387424}
-  - {fileID: 1941201994}
-  - {fileID: 2130995001}
-  - {fileID: 1271832464}
   - {fileID: 2084701984}
   - {fileID: 1173960866}
   - {fileID: 885000130}
   - {fileID: 1138662565}
+  - {fileID: 522387424}
+  - {fileID: 1941201994}
+  - {fileID: 2130995001}
+  - {fileID: 1271832464}
   - {fileID: 1705743669}
   - {fileID: 1350842762}
   - {fileID: 29285093}
@@ -9538,7 +9579,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1941201994
 Transform:
   m_ObjectHideFlags: 0
@@ -9569,6 +9610,7 @@ MonoBehaviour:
   color: 3
   currentIndex: -1
   homeIndex: -1
+  stepsFromStart: 0
   isHome: 0
   hasFinished: 0
 --- !u!212 &1941201996
@@ -10057,6 +10099,7 @@ MonoBehaviour:
   color: 0
   currentIndex: -1
   homeIndex: -1
+  stepsFromStart: 0
   isHome: 0
   hasFinished: 0
 --- !u!212 &2084701986
@@ -10392,7 +10435,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2130995001
 Transform:
   m_ObjectHideFlags: 0
@@ -10423,6 +10466,7 @@ MonoBehaviour:
   color: 3
   currentIndex: -1
   homeIndex: -1
+  stepsFromStart: 0
   isHome: 0
   hasFinished: 0
 --- !u!212 &2130995003

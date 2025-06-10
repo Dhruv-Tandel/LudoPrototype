@@ -41,7 +41,6 @@ public class BoardManager : MonoBehaviour
 
     public Transform GetMainTile(int index)
     {
-        print(index);
         return mainPathTiles[index % mainPathTiles.Length];
     }
 }

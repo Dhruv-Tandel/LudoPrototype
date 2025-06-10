@@ -5,8 +5,8 @@ public class PlayerPiece : MonoBehaviour
     public PlayerColor color;
     public int currentIndex = -1; // -1 means not on board
     public int homeIndex = -1;
+    public int stepsFromStart = 0; 
     public bool isHome = false;
-    public bool onMainPath = false;
     public bool hasFinished = false;
 
     public void Move(int steps)
@@ -19,30 +19,38 @@ public class PlayerPiece : MonoBehaviour
             {
                 currentIndex = BoardManager.Instance.homeEntry[color];
                 transform.position = BoardManager.Instance.GetMainTile(currentIndex).position;
-                onMainPath = true;
             }
             return;
         }
 
-        int entryPoint = BoardManager.Instance.homeEntry[color];
+        int totalStepsAfterMove = stepsFromStart + steps;
 
-        if (!isHome && currentIndex + steps > entryPoint && !onMainPath)//TODO: wrong logic for overshoot
+        if (!isHome && totalStepsAfterMove > 51)
         {
-            int overShoot = currentIndex + steps - entryPoint - 1;
-            if (overShoot < 6)
+            int stepsPastLoop = totalStepsAfterMove - 52;
+
+            if (stepsPastLoop < 6)
             {
+                // Enter home row
                 isHome = true;
-                homeIndex = overShoot;
+                homeIndex = stepsPastLoop;
                 transform.position = BoardManager.Instance.homeRows[color][homeIndex].position;
             }
+            else
+            {
+                // Overshoot home row — invalid move
+                return;
+            }
         }
-        else if (onMainPath)
+        else if (!isHome)
         {
-            currentIndex += steps;
+            stepsFromStart += steps;
+            currentIndex = (currentIndex + steps) % 52;
             transform.position = BoardManager.Instance.GetMainTile(currentIndex).position;
         }
-        else if (isHome)
+        else
         {
+            // Already in home row
             if (homeIndex + steps < 6)
             {
                 homeIndex += steps;
@@ -51,8 +59,9 @@ public class PlayerPiece : MonoBehaviour
             else if (homeIndex + steps == 6)
             {
                 hasFinished = true;
-                gameObject.SetActive(false); // Reached center
+                gameObject.SetActive(false);
             }
         }
+
     }
 }
